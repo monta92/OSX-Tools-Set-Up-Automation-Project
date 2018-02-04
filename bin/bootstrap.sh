@@ -64,7 +64,7 @@ PACKAGES=(
     # Automate producing Makefiles
     automake
     # lightweight Linux distribution made specifically to run Docker containers
-    boot2docker
+    docker
     # Multimedia tool for transcoding, multimedia libraries providing and format support (...)
     ffmpeg
     # Tool to write multilingual programs.
