@@ -73,6 +73,22 @@ PACKAGES=(
     gifsicle
     # Version Control System 
     git
+    # Graph Visualization Software tools
+    graphviz
+    # Command-line wrapper for git that makes you better at GitHub.
+    hub
+    # Display, convert, and edit raster image and vector image files
+    imagemagick
+    # Command-line JSON processor.
+    jq
+    # Postgresql Database
+    postgresql
+    # Python
+    python
+    # Python3
+    python3
+    # pypy
+    pypy
 )
 
 echo "Installing packages..."
