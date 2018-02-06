@@ -52,9 +52,6 @@ brew install gnu-grep --with-default-names
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed 
 brew install findutils
 
-# Install Bash 4
-brew install bash
-
 PACKAGES=( 
     # Code searching tool
     ag 
