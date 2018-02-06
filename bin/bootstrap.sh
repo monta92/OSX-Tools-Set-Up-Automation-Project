@@ -54,7 +54,7 @@ brew install findutils
 
 PACKAGES=( 
     # Code searching tool
-    ag 
+    the_silver_searcher
     ## Autotools setup ## 
     # Automate producing configure scripts for software packages
     autoconf
@@ -86,6 +86,12 @@ PACKAGES=(
     python3
     # pypy
     pypy
+    # rename multiple files via command line
+    rename
+    # installs an SSH key on a server as an authorized key
+    ssh-copy-id
+    # Send terminal notifications to user
+    terminal-notifier
 )
 
 echo "Installing packages..."
