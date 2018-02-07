@@ -117,3 +117,19 @@ brew install ${PACKAGES[@]}
 
 echo "Cleaning up..."
 brew cleanup
+
+
+CASKS=(
+    dropbox
+    flux
+    google-chrome
+    google-drive
+    gpgtools
+    iterm2
+    macvim
+    skype
+    slack
+    vagrant
+    virtualbox
+    vlc
+)
