@@ -70,6 +70,10 @@ PACKAGES=(
     gifsicle
     # Version Control System 
     git
+    # Tool for feature branches creation
+    git-flow
+    # Tool for gitlog visualisation
+    tig
     # Graph Visualization Software tools
     graphviz
     # Command-line wrapper for git that makes you better at GitHub.
@@ -92,6 +96,20 @@ PACKAGES=(
     ssh-copy-id
     # Send terminal notifications to user
     terminal-notifier
+    # Tree package for MacOSX
+    tree
+    # Vim Editor
+    vim
+    # Retrieving files over HTTP(S)/FTP(S)
+    wget
+    # For Data Transfer
+    curl
+    # 
+    siege
+    # Oh-my-Zsh
+    zsh
+    # a cd line tool to jump into buffered paths
+    autojump
 )
 
 echo "Installing packages..."
