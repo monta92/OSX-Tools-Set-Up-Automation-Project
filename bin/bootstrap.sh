@@ -104,7 +104,7 @@ PACKAGES=(
     wget
     # For Data Transfer
     curl
-    # 
+    # Http load testing and benchmarking utility
     siege
     # Oh-my-Zsh
     zsh
