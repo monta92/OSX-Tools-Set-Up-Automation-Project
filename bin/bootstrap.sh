@@ -54,7 +54,7 @@ brew install findutils
 
 PACKAGES=( 
     # Code searching tool
-    ag 
+    the_silver_searcher
     ## Autotools setup ## 
     # Automate producing configure scripts for software packages
     autoconf
@@ -70,6 +70,10 @@ PACKAGES=(
     gifsicle
     # Version Control System 
     git
+    # Tool for feature branches creation
+    git-flow
+    # Tool for gitlog visualisation
+    tig
     # Graph Visualization Software tools
     graphviz
     # Command-line wrapper for git that makes you better at GitHub.
@@ -86,6 +90,26 @@ PACKAGES=(
     python3
     # pypy
     pypy
+    # rename multiple files via command line
+    rename
+    # installs an SSH key on a server as an authorized key
+    ssh-copy-id
+    # Send terminal notifications to user
+    terminal-notifier
+    # Tree package for MacOSX
+    tree
+    # Vim Editor
+    vim
+    # Retrieving files over HTTP(S)/FTP(S)
+    wget
+    # For Data Transfer
+    curl
+    # Http load testing and benchmarking utility
+    siege
+    # Oh-my-Zsh
+    zsh
+    # a cd line tool to jump into buffered paths
+    autojump
 )
 
 echo "Installing packages..."
@@ -93,3 +117,19 @@ brew install ${PACKAGES[@]}
 
 echo "Cleaning up..."
 brew cleanup
+
+
+CASKS=(
+    dropbox
+    flux
+    google-chrome
+    google-drive
+    gpgtools
+    iterm2
+    macvim
+    skype
+    slack
+    vagrant
+    virtualbox
+    vlc
+)
